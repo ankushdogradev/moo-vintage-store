@@ -1948,7 +1948,7 @@ input[type='checkbox'] {
 .header__heading,
 .header__heading-link {
   grid-area: heading;
-  justify-self: end;
+  justify-self: center;
 }
 
 .header__heading-link {
@@ -2016,6 +2016,9 @@ input[type='checkbox'] {
 
 .header__icon {
   color: rgb(var(--color-foreground));
+  position: relative;
+  background-color: #fff;
+  z-index: 10;
 }
 
 .header__icon span {
