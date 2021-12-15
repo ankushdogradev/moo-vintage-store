@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"section-hero.css"}
+{"version":3,"sources":["section-hero.scss","section-hero.css"],"names":[],"mappings":"AAAA,GAEI,YAAA,CADA,cCEJ","file":"section-hero.css","sourcesContent":["h1 {\r\n    font-style: 700;\r\n    color: violet;\r\n}","h1 {\n  font-style: 700;\n  color: violet;\n}"]}
