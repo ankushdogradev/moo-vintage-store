@@ -12,7 +12,9 @@
         "ebd12a18-d3ee-46f3-bbd8-27adbf1df199": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "back-to-work",
+            "image_bg": "shopify:\/\/shop_images\/hero-work.png",
+            "image_hover": "shopify:\/\/shop_images\/hero-work-hover.png"
           }
         },
         "32d63344-9d6d-4c29-a5c7-a2eb328504a5": {
