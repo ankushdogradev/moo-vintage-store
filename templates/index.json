@@ -2,7 +2,33 @@
   "sections": {
     "1639594532ea754d3f": {
       "type": "hero",
+      "blocks": {
+        "d6c95b19-9de1-4042-b308-e4c54098ede9": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "ebd12a18-d3ee-46f3-bbd8-27adbf1df199": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "32d63344-9d6d-4c29-a5c7-a2eb328504a5": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "d6c95b19-9de1-4042-b308-e4c54098ede9",
+        "ebd12a18-d3ee-46f3-bbd8-27adbf1df199",
+        "32d63344-9d6d-4c29-a5c7-a2eb328504a5"
+      ],
       "settings": {
+        "sub_title": "vintage & thrift"
       }
     }
   },
