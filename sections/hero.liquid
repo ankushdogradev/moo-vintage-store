@@ -1,11 +1,22 @@
 {{ 'section-hero.css' | asset_url | stylesheet_tag }}
 
 <div class="hero">
-    <div class="hero__main">
-        <img class="hero__main__logo" src="{{ "hero-image.svg" | asset_url }}" width="307" alt="LOGO">
-        <h1 class="hero__main__sub-heading">{{ section.settings.sub_title }}</h1>
+    <div class="hero-main">
+        <img class="hero-main__logo" src="{{ "hero-image.svg" | asset_url }}" width="307" alt="LOGO">
+        <h1 class="hero-main__sub-heading">{{ section.settings.sub_title }}</h1>
     </div>
-    <div class="hero__collection"></div>
+    <div class="hero-collection">
+        {% for block in section.blocks %}
+            {% case block.type %}
+                {% when 'collection' %}
+                    <a class="hero-collection__card" href="{{ block.settings.collection.url }}">
+                        <div class="hero-collection__card--bg" style="background-image: url({{ block.settings.image_bg | image_url: width: 312 }})"></div>
+                        <div class="hero-collection__card--hover" style="background-image: url({{ block.settings.image_hover | image_url: width: 312 }})"></div>
+                        <h3 class="hero-collection__card--title">{{ block.settings.collection.title | downcase }}</h3>
+                    </a>
+            {% endcase %}
+        {% endfor %}
+    </div>
 </div>
 
 {% schema %}
