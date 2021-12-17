@@ -24,7 +24,12 @@
     }
 
     &__item {
-        margin: 3.0625rem 0;
+        margin: 8rem 0;
+
+        @include breakpoint-down(large) {
+            margin: 3.0625rem 0;
+
+        }
 
         &-link {
             text-decoration: none;
