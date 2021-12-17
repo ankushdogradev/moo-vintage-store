@@ -36,9 +36,16 @@
       "settings": {
         "sub_title": "vintage & thrift"
       }
+    },
+    "1639735682cf35293f": {
+      "type": "weekly-picks",
+      "settings": {
+        "collection": ""
+      }
     }
   },
   "order": [
-    "1639594532ea754d3f"
+    "1639594532ea754d3f",
+    "1639735682cf35293f"
   ]
 }
