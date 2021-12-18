@@ -121,7 +121,7 @@
         </div>
       {%- endif -%}
 
-      <div class="product-bubble bubble--{% if product_card_product.tags contains "New" %}new{% elsif product_card_product.tags contains "Fave" %}fave{% elsif product_card_product.compare_at_price != blank %}sale{% endif %}">
+      <div class="product-bubble product-bubble--collection bubble--{% if product_card_product.tags contains "New" %}new{% elsif product_card_product.tags contains "Fave" %}fave{% elsif product_card_product.compare_at_price != blank %}sale{% endif %}">
         <span>
             {% if product_card_product.tags contains "New" %}
                 new
