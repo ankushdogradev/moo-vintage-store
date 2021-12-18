@@ -1,8 +1,8 @@
 {{ 'section-collection-grid.css' | asset_url | stylesheet_tag }}
 
-
-<!-- GOAL IS TO GIVE USER OPTION TO CREATE CUSTOM COLLECTION -->
-<!-- CREATE SCHEMA FIRST -->
+<div class="collection-grid">
+    <h2 class="collection-grid__header">{{ section.settings.header }}</h2>
+</div>
 
 {% schema %}
 {
@@ -12,7 +12,8 @@
         {
             "type": "text",
             "id": "header",
-            "label": "Header"
+            "label": "Header",
+           "default": "Take A Look Around"
         }
     ],
     "blocks":[{
