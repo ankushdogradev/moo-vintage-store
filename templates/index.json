@@ -49,25 +49,25 @@
         "0cf4eda9-9fb3-4bce-9cd3-c9360986ab3d": {
           "type": "collection-grid",
           "settings": {
-            "collection": "one-piece"
+            "collection": "bottoms"
           }
         },
         "42257711-7975-4a21-a99d-ac92198e33d1": {
           "type": "collection-grid",
           "settings": {
-            "collection": "dress"
+            "collection": "dresses"
           }
         },
         "6dc5a71c-a47a-4180-9aea-8da5d063d047": {
           "type": "collection-grid",
           "settings": {
-            "collection": "summer"
+            "collection": "tops"
           }
         },
         "fb1f7c24-722a-4140-abe5-c8ebd424f3f6": {
           "type": "collection-grid",
           "settings": {
-            "collection": "fall"
+            "collection": "denim-1"
           }
         }
       },
