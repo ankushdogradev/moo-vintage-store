@@ -42,10 +42,49 @@
       "settings": {
         "collection": "weekly-picks"
       }
+    },
+    "1639808319a657954e": {
+      "type": "collection-grid",
+      "blocks": {
+        "0cf4eda9-9fb3-4bce-9cd3-c9360986ab3d": {
+          "type": "collection-grid",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "42257711-7975-4a21-a99d-ac92198e33d1": {
+          "type": "collection-grid",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "6dc5a71c-a47a-4180-9aea-8da5d063d047": {
+          "type": "collection-grid",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "fb1f7c24-722a-4140-abe5-c8ebd424f3f6": {
+          "type": "collection-grid",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "0cf4eda9-9fb3-4bce-9cd3-c9360986ab3d",
+        "42257711-7975-4a21-a99d-ac92198e33d1",
+        "6dc5a71c-a47a-4180-9aea-8da5d063d047",
+        "fb1f7c24-722a-4140-abe5-c8ebd424f3f6"
+      ],
+      "settings": {
+        "header": ""
+      }
     }
   },
   "order": [
     "1639594532ea754d3f",
-    "1639735682cf35293f"
+    "1639735682cf35293f",
+    "1639808319a657954e"
   ]
 }
