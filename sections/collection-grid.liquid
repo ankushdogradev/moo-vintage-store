@@ -1,7 +1,17 @@
 {{ 'section-collection-grid.css' | asset_url | stylesheet_tag }}
 
-<div class="collection-grid">
-    <h2 class="collection-grid__header">{{ section.settings.header }}</h2>
+<div class="collection-cont">
+    <h2 class="collection-cont__header">{{ section.settings.header }}</h2>
+    <div class="collection-cont__grid">
+        {% for block in section.blocks%}
+        <a class="collection-cont__grid--item" href="{{ block.settings.collection.url }}">
+            <div class="collection-cont__grid--item__img-cont">
+            <img src="{{ block.settings.collection.image | image_url: width: 160, height: 160 }}" width="160" height="160" loading="lazy"/>
+            </div>
+            <h3 class="collection-cont__grid--title">{{ block.settings.collection.title }}</h3>
+        </a>
+        {% endfor %}
+    </div>
 </div>
 
 {% schema %}
@@ -16,17 +26,19 @@
            "default": "Take A Look Around"
         }
     ],
-    "blocks":[{
-       "name": "Collection Grid",
-       "type": "collection-grid",
-       "settings": [
+    "blocks":[
         {
-            "type": "collection",
-            "id": "collection",
-            "label": "Collection"
+            "name": "Collection Grid",
+            "type": "collection-grid",
+            "settings": [
+                {
+                    "type": "collection",
+                    "id": "collection",
+                    "label": "Collection"
+                }
+            ]
         }
-       ]
-    }],
+    ],
     "presets": [
         {
             "name": "Collection grid"

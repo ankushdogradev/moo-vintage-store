@@ -1,2 +1,2 @@
-
+@media (max-width:67.125em){.collection-cont{align-items:center;display:flex;flex-direction:column;justify-content:center}}.collection-cont__header{font-size:2.5em;font-weight:900;line-height:3em;text-align:center}.collection-cont__grid{grid-gap:10px;display:grid;grid-template-columns:repeat(2,320px);justify-content:center}@media (max-width:67.125em){.collection-cont__grid{grid-template-columns:repeat(1,320px)}}.collection-cont__grid--item{align-items:center;background:#fbf9f9;border:.625rem solid #000;border-radius:.625rem;display:flex;flex-direction:column;height:26.1875rem;justify-self:center;padding:2.5rem;width:30rem}.collection-cont__grid--item:hover{background:hsla(0,0%,5%,.7)}
 /*# sourceMappingURL=section-collection-grid.css.map */
