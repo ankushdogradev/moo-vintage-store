@@ -1,0 +1,35 @@
+{{ 'section-collection-grid.css' | asset_url | stylesheet_tag }}
+
+
+<!-- GOAL IS TO GIVE USER OPTION TO CREATE CUSTOM COLLECTION -->
+<!-- CREATE SCHEMA FIRST -->
+
+{% schema %}
+{
+    "name": "Collection Grid",
+   "max_blocks": 4,
+    "settings": [
+        {
+            "type": "text",
+            "id": "header",
+            "label": "Header"
+        }
+    ],
+    "blocks":[{
+       "name": "Collection Grid",
+       "type": "collection-grid",
+       "settings": [
+        {
+            "type": "collection",
+            "id": "collection",
+            "label": "Collection"
+        }
+       ]
+    }],
+    "presets": [
+        {
+            "name": "Collection grid"
+        }
+    ]
+}
+{% endschema %}
