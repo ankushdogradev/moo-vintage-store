@@ -325,7 +325,7 @@
 }
 
 .product-bubble--collection {
-  right: 10%;
+  left: 70%;
   top: 0;
   height: 75px;
   width: 70px;
@@ -337,8 +337,8 @@
 
 @media screen and (min-width: 768px) {
   .product-bubble--collection {
-    right: 20%;
-    top: 50px;
+    left: 70%;
+    top: 0;
     height: 95px;
     width: 90px;
 
