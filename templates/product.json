@@ -3,15 +3,17 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
+        "title": {
+          "type": "title",
           "settings": {
-            "text_style": "uppercase",
-            "text": "{{ product.vendor }}"
           }
         },
-        "title": {
-          "type": "title"
+        "9643f192-b75d-436c-ad7a-1977caaf2781": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "body"
+          }
         },
         "subtitle": {
           "type": "text",
@@ -21,38 +23,67 @@
           }
         },
         "price": {
-          "type": "price"
+          "type": "price",
+          "settings": {
+          }
         },
         "variant_picker": {
-          "type": "variant_picker"
-        },
-        "quantity_selector": {
-          "type": "quantity_selector"
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
         },
         "buy_buttons": {
-          "type": "buy_buttons"
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
         },
         "description": {
-          "type": "description"
+          "type": "description",
+          "settings": {
+          }
         },
-        "share": {
-          "type": "share"
+        "271ecf40-fadc-48f8-b950-ff694ef0bc8a": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "56f90942-33e8-44c6-a084-d15cb317f31c": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
         }
       },
       "block_order": [
-        "vendor",
         "title",
+        "9643f192-b75d-436c-ad7a-1977caaf2781",
         "subtitle",
         "price",
         "variant_picker",
-        "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
-      ]
+        "271ecf40-fadc-48f8-b950-ff694ef0bc8a",
+        "56f90942-33e8-44c6-a084-d15cb317f31c"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
     },
     "product-recommendations": {
-      "type": "product-recommendations"
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
     }
   },
   "order": [
